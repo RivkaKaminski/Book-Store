@@ -1,0 +1,518 @@
+[
+    {
+        "id": 1,
+        "title": "The Power of Habit",
+        "price": 19.99,
+        "picture": "../imgs/111px-אור_שמח_(ספר).jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Atomic Habits",
+        "price": 17.50,
+        "picture": "../imgs/115px-250px-שער_צימר.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Thinking, Fast and Slow",
+        "price": 22.99,
+        "picture": "https://example.com/pics/thinking_fast_slow.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Deep Work",
+        "price": 15.99,
+        "picture": "https://example.com/pics/deep_work.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Grit",
+        "price": 16.95,
+        "picture": "https://example.com/pics/grit.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Educated",
+        "price": 18.50,
+        "picture": "https://example.com/pics/educated.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Becoming",
+        "price": 24.99,
+        "picture": "https://example.com/pics/becoming.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Sapiens: A Brief History of Humankind",
+        "price": 20.00,
+        "picture": "https://example.com/pics/sapiens.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Homo Deus: A Brief History of Tomorrow",
+        "price": 21.99,
+        "picture": "https://example.com/pics/homo_deus.jpg"
+    },
+    {
+        "id": 10,
+        "title": "The Subtle Art of Not Giving a F*ck",
+        "price": 14.99,
+        "picture": "https://example.com/pics/subtle_art.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Outliers: The Story of Success",
+        "price": 19.50,
+        "picture": "https://example.com/pics/outliers.jpg"
+    },
+    {
+        "id": 12,
+        "title": "The Lean Startup",
+        "price": 17.99,
+        "picture": "https://example.com/pics/lean_startup.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Dare to Lead",
+        "price": 18.75,
+        "picture": "https://example.com/pics/dare_to_lead.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Start with Why",
+        "price": 16.50,
+        "picture": "https://example.com/pics/start_with_why.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Leaders Eat Last",
+        "price": 21.95,
+        "picture": "https://example.com/pics/leaders_eat_last.jpg"
+    },
+    {
+        "id": 16,
+        "title": "The 7 Habits of Highly Effective People",
+        "price": 19.00,
+        "picture": "https://example.com/pics/7_habits.jpg"
+    },
+    {
+        "id": 17,
+        "title": "The Four Agreements",
+        "price": 12.99,
+        "picture": "https://example.com/pics/four_agreements.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Can't Hurt Me",
+        "price": 22.50,
+        "picture": "https://example.com/pics/cant_hurt_me.jpg"
+    },
+    {
+        "id": 19,
+        "title": "The Alchemist",
+        "price": 13.99,
+        "picture": "https://example.com/pics/alchemist.jpg"
+    },
+    {
+        "id": 20,
+        "title": "How to Win Friends and Influence People",
+        "price": 15.99,
+        "picture": "https://example.com/pics/win_friends.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Man's Search for Meaning",
+        "price": 14.50,
+        "picture": "https://example.com/pics/search_for_meaning.jpg"
+    },
+    {
+        "id": 22,
+        "title": "The War of Art",
+        "price": 12.50,
+        "picture": "https://example.com/pics/war_of_art.jpg"
+    },
+    {
+        "id": 23,
+        "title": "The Obstacle Is the Way",
+        "price": 16.75,
+        "picture": "https://example.com/pics/obstacle_way.jpg"
+    },
+    {
+        "id": 24,
+        "title": "The Art of Happiness",
+        "price": 18.99,
+        "picture": "https://example.com/pics/art_of_happiness.jpg"
+    },
+    {
+        "id": 25,
+        "title": "The Book Thief",
+        "price": 14.99,
+        "picture": "https://example.com/pics/book_thief.jpg"
+    },
+    {
+        "id": 26,
+        "title": "The Catcher in the Rye",
+        "price": 10.99,
+        "picture": "https://example.com/pics/catcher_rye.jpg"
+    },
+    {
+        "id": 27,
+        "title": "To Kill a Mockingbird",
+        "price": 15.95,
+        "picture": "https://example.com/pics/to_kill_mockingbird.jpg"
+    },
+    {
+        "id": 28,
+        "title": "1984",
+        "price": 13.50,
+        "picture": "https://example.com/pics/1984.jpg"
+    },
+    {
+        "id": 29,
+        "title": "Pride and Prejudice",
+        "price": 9.99,
+        "picture": "https://example.com/pics/pride_prejudice.jpg"
+    },
+    {
+        "id": 30,
+        "title": "The Great Gatsby",
+        "price": 10.99,
+        "picture": "https://example.com/pics/great_gatsby.jpg"
+    },
+    {
+        "id": 31,
+        "title": "Moby Dick",
+        "price": 11.99,
+        "picture": "https://example.com/pics/moby_dick.jpg"
+    },
+    {
+        "id": 32,
+        "title": "War and Peace",
+        "price": 24.50,
+        "picture": "https://example.com/pics/war_and_peace.jpg"
+    },
+    {
+        "id": 33,
+        "title": "Crime and Punishment",
+        "price": 19.99,
+        "picture": "https://example.com/pics/crime_punishment.jpg"
+    },
+    {
+        "id": 34,
+        "title": "The Brothers Karamazov",
+        "price": 23.99,
+        "picture": "https://example.com/pics/brothers_karamazov.jpg"
+    },
+    {
+        "id": 35,
+        "title": "The Odyssey",
+        "price": 12.95,
+        "picture": "https://example.com/pics/odyssey.jpg"
+    },
+    {
+        "id": 36,
+        "title": "The Iliad",
+        "price": 13.95,
+        "picture": "https://example.com/pics/iliad.jpg"
+    },
+    {
+        "id": 37,
+        "title": "The Divine Comedy",
+        "price": 22.99,
+        "picture": "https://example.com/pics/divine_comedy.jpg"
+    },
+    {
+        "id": 38,
+        "title": "Brave New World",
+        "price": 14.50,
+        "picture": "https://example.com/pics/brave_new_world.jpg"
+    },
+    {
+        "id": 39,
+        "title": "Fahrenheit 451",
+        "price": 11.50,
+        "picture": "https://example.com/pics/fahrenheit_451.jpg"
+    },
+    {
+        "id": 40,
+        "title": "Jane Eyre",
+        "price": 12.50,
+        "picture": "https://example.com/pics/jane_eyre.jpg"
+    },
+    {
+        "id": 41,
+        "title": "Wuthering Heights",
+        "price": 13.50,
+        "picture": "https://example.com/pics/wuthering_heights.jpg"
+    },
+    {
+        "id": 42,
+        "title": "Frankenstein",
+        "price": 10.99,
+        "picture": "https://example.com/pics/frankenstein.jpg"
+    },
+    {
+        "id": 43,
+        "title": "Dracula",
+        "price": 12.99,
+        "picture": "https://example.com/pics/dracula.jpg"
+    },
+    {
+        "id": 44,
+        "title": "The Picture of Dorian Gray",
+        "price": 13.99,
+        "picture": "https://example.com/pics/dorian_gray.jpg"
+    },
+    {
+        "id": 45,
+        "title": "The Lord of the Rings",
+        "price": 25.00,
+        "picture": "https://example.com/pics/lord_of_the_rings.jpg"
+    },
+    {
+        "id": 46,
+        "title": "The Hobbit",
+        "price": 15.50,
+        "picture": "https://example.com/pics/hobbit.jpg"
+    },
+    {
+        "id": 47,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "price": 18.99,
+        "picture": "https://example.com/pics/harry_potter_1.jpg"
+    },
+    {
+        "id": 48,
+        "title": "Harry Potter and the Chamber of Secrets",
+        "price": 19.99,
+        "picture": "https://example.com/pics/harry_potter_2.jpg"
+    },
+    {
+        "id": 49,
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "price": 20.99,
+        "picture": "https://example.com/pics/harry_potter_3.jpg"
+    },
+    {
+        "id": 50,
+        "title": "Harry Potter and the Goblet of Fire",
+        "price": 22.50,
+        "picture": "https://example.com/pics/harry_potter_4.jpg"
+    },
+    {
+        "id": 51,
+        "title": "The Hunger Games",
+        "price": 16.99,
+        "picture": "https://example.com/pics/hunger_games.jpg"
+    },
+    {
+        "id": 52,
+        "title": "Catching Fire",
+        "price": 17.99,
+        "picture": "https://example.com/pics/catching_fire.jpg"
+    },
+    {
+        "id": 53,
+        "title": "Mockingjay",
+        "price": 18.50,
+        "picture": "https://example.com/pics/mockingjay.jpg"
+    },
+    {
+        "id": 54,
+        "title": "Dune",
+        "price": 20.00,
+        "picture": "https://example.com/pics/dune.jpg"
+    },
+    {
+        "id": 55,
+        "title": "Ender's Game",
+        "price": 14.99,
+        "picture": "https://example.com/pics/enders_game.jpg"
+    },
+    {
+        "id": 56,
+        "title": "The Name of the Wind",
+        "price": 18.99,
+        "picture": "https://example.com/pics/name_of_the_wind.jpg"
+    },
+    {
+        "id": 57,
+        "title": "The Wise Man's Fear",
+        "price": 19.50,
+        "picture": "https://example.com/pics/wise_mans_fear.jpg"
+    },
+    {
+        "id": 58,
+        "title": "Mistborn: The Final Empire",
+        "price": 16.50,
+        "picture": "https://example.com/pics/mistborn.jpg"
+    },
+    {
+        "id": 59,
+        "title": "The Way of Kings",
+        "price": 21.99,
+        "picture": "https://example.com/pics/way_of_kings.jpg"
+    },
+    {
+        "id": 60,
+        "title": "Words of Radiance",
+        "price": 23.50,
+        "picture": "https://example.com/pics/words_of_radiance.jpg"
+    },
+    {
+        "id": 61,
+        "title": "Oathbringer",
+        "price": 24.99,
+        "picture": "https://example.com/pics/oathbringer.jpg"
+    },
+    {
+        "id": 62,
+        "title": "A Game of Thrones",
+        "price": 15.99,
+        "picture": "https://example.com/pics/game_of_thrones.jpg"
+    },
+    {
+        "id": 63,
+        "title": "A Clash of Kings",
+        "price": 16.99,
+        "picture": "https://example.com/pics/clash_of_kings.jpg"
+    },
+    {
+        "id": 64,
+        "title": "A Storm of Swords",
+        "price": 17.99,
+        "picture": "https://example.com/pics/storm_of_swords.jpg"
+    },
+    {
+        "id": 65,
+        "title": "A Feast for Crows",
+        "price": 18.50,
+        "picture": "https://example.com/pics/feast_for_crows.jpg"
+    },
+    {
+        "id": 66,
+        "title": "A Dance with Dragons",
+        "price": 19.50,
+        "picture": "https://example.com/pics/dance_with_dragons.jpg"
+    },
+    {
+        "id": 67,
+        "title": "The Eye of the World",
+        "price": 14.99,
+        "picture": "https://example.com/pics/eye_of_the_world.jpg"
+    },
+    {
+        "id": 68,
+        "title": "The Great Hunt",
+        "price": 16.99,
+        "picture": "https://example.com/pics/great_hunt.jpg"
+    },
+    {
+        "id": 69,
+        "title": "The Dragon Reborn",
+        "price": 17.50,
+        "picture": "https://example.com/pics/dragon_reborn.jpg"
+    },
+    {
+        "id": 70,
+        "title": "The Shadow Rising",
+        "price": 18.50,
+        "picture": "https://example.com/pics/shadow_rising.jpg"
+    },
+    {
+        "id": 71,
+        "title": "Lord of Chaos",
+        "price": 19.50,
+        "picture": "https://example.com/pics/lord_of_chaos.jpg"
+    },
+    {
+        "id": 72,
+        "title": "The Fires of Heaven",
+        "price": 20.00,
+        "picture": "https://example.com/pics/fires_of_heaven.jpg"
+    },
+    {
+        "id": 73,
+        "title": "Crossroads of Twilight",
+        "price": 21.50,
+        "picture": "https://example.com/pics/crossroads_of_twilight.jpg"
+    },
+    {
+        "id": 74,
+        "title": "Knife of Dreams",
+        "price": 22.50,
+        "picture": "https://example.com/pics/knife_of_dreams.jpg"
+    },
+    {
+        "id": 75,
+        "title": "The Gathering Storm",
+        "price": 23.99,
+        "picture": "https://example.com/pics/gathering_storm.jpg"
+    },
+    {
+        "id": 76,
+        "title": "Towers of Midnight",
+        "price": 24.50,
+        "picture": "https://example.com/pics/towers_of_midnight.jpg"
+    },
+    {
+        "id": 77,
+        "title": "A Memory of Light",
+        "price": 25.00,
+        "picture": "https://example.com/pics/memory_of_light.jpg"
+    },
+    {
+        "id": 78,
+        "title": "Red Rising",
+        "price": 17.50,
+        "picture": "https://example.com/pics/red_rising.jpg"
+    },
+    {
+        "id": 79,
+        "title": "Golden Son",
+        "price": 18.99,
+        "picture": "https://example.com/pics/golden_son.jpg"
+    },
+    {
+        "id": 80,
+        "title": "Morning Star",
+        "price": 19.99,
+        "picture": "https://example.com/pics/morning_star.jpg"
+    },
+    {
+        "id": 81,
+        "title": "The Fifth Season",
+        "price": 17.95,
+        "picture": "https://example.com/pics/fifth_season.jpg"
+    },
+    {
+        "id": 82,
+        "title": "The Obelisk Gate",
+        "price": 18.75,
+        "picture": "https://example.com/pics/obelisk_gate.jpg"
+    },
+    {
+        "id": 83,
+        "title": "The Stone Sky",
+        "price": 19.50,
+        "picture": "https://example.com/pics/stone_sky.jpg"
+    },
+    {
+        "id": 84,
+        "title": "The Three-Body Problem",
+        "price": 16.99,
+        "picture": "https://example.com/pics/three_body_problem.jpg"
+    },
+    {
+        "id": 85,
+        "title": "The Dark Forest",
+        "price": 18.99,
+        "picture": "https://example.com/pics/dark_forest.jpg"
+    },
+    {
+        "id": 86,
+        "title": "Death's End",
+        "price": 19.99,
+        "picture": "https://example.com/pics/deaths_end.jpg"
+    }
+]
