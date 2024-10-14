@@ -11,21 +11,22 @@
 <body>
     <h1> Bookshop ERP</h1>
     <div id="update-modal" class="modal">
-        <div class="modal-content">
+        <div
+            style="background-color: white; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
             <h2>Edit Book</h2>
-            <label for="update-title">Title:</label>
-            <input type="text" id="update-title">
-    
-            <label for="update-price">Price:</label>
-            <input type="number" id="update-price">
-    
-            <label for="update-picture">Picture URL:</label>
-            <input type="text" id="update-picture">
-    
-            <button id="saveChanges">Save Changes</button>
+            <label for="update-title-${book.id}">Title:</label>
+            <input type="text" id="update-title-${book.id}" value="${book.title}">
+
+            <label for="update-price-${book.id}">Price:</label>
+            <input type="number" id="update-price-${book.id}" value="${book.price}">
+
+            <label for="update-picture-${book.id}">Picture:</label>
+            <input type="file" id="update-picture-${book.id}">
+
+            <button id="saveChanges-${book.id}">Save Changes</button>
         </div>
     </div>
-    
+
     <table>
         <thead>
             <tr>

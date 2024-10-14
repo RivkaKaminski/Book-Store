@@ -66,23 +66,9 @@ function openModal(book) {
     alert(`Reading book: ${book.title}`);
 }
 function updateBook(book) {
-    const modalContent = `
-        <div style="background-color: white; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-            <h2>Edit Book</h2>
-            <label for="update-title-${book.id}">Title:</label>
-            <input type="text" id="update-title-${book.id}" value="${book.title}">
+    const modal = document.getElementById('update-modal');
+    modal.style.display = 'block';
 
-            <label for="update-price-${book.id}">Price:</label>
-            <input type="number" id="update-price-${book.id}" value="${book.price}">
-
-            <label for="update-picture-${book.id}">Picture URL:</label>
-            <input type="text" id="update-picture-${book.id}" value="${book.picture}">
-
-            <button id="saveChanges-${book.id}">Save Changes</button>
-        </div>
-    `;
-
-    const modal = document.createElement('div');
     modal.innerHTML = modalContent;
     document.body.appendChild(modal);
 
@@ -91,6 +77,18 @@ function updateBook(book) {
         book.title = document.getElementById(`update-title-${book.id}`).value;
         book.price = parseFloat(document.getElementById(`update-price-${book.id}`).value);
         book.picture = document.getElementById(`update-picture-${book.id}`).value;
+
+        const pictureInput = document.getElementById(`update-picture-${book.id}`);
+        if (pictureInput.files.length > 0) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                book.picture = e.target.result; // עדכון ה-URL של התמונה
+                renderBooks(); // רענון הטבלה לאחר השינויים
+            };
+            reader.readAsDataURL(pictureInput.files[0]); // קריאת התמונה הנבחרת
+        } else {
+            renderBooks(); // אם לא נבחרה תמונה חדשה, רק לעדכן את השאר
+        }
 
         document.body.removeChild(modal); // סגירת המודאל
         renderBooks(); // רענון הטבלה
@@ -105,5 +103,10 @@ function deleteBook(book) {
     }
 }
 
-
+window.onclick = function (event) {
+    const modal = document.getElementById('update-modal');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+};
 window.onload = loadAndRenderBooks();
